@@ -1,38 +1,18 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { ChrominoComponent } from './chromino/chromino.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.css'
+  standalone: true,
+  imports: [RouterModule, ChrominoComponent],
+  template: `
+    <h1>Chrominox</h1>
+    <app-chromino [colors]="chrominoColors"></app-chromino>
+    <router-outlet></router-outlet>
+  `
 })
-export class AppComponent implements OnInit {
-  public forecasts: WeatherForecast[] = [];
-
-  constructor(private http: HttpClient) {}
-
-  ngOnInit() {
-    this.getForecasts();
-  }
-
-  getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
-      (result) => {
-        this.forecasts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
-  }
-
-  title = 'chrominox.client';
+export class AppComponent {
+  title = 'chrominox';
+  chrominoColors: string[] = ['#FF0000', '#00FF00', '#0000FF'];
 }

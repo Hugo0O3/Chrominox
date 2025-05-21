@@ -1,19 +1,22 @@
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { MenuComponent } from './menu/menu.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
-  declarations: [
+  imports: [
+    BrowserModule,
     AppComponent
   ],
-  imports: [
-    BrowserModule, HttpClientModule,
-    AppRoutingModule
+  providers: [
+    provideHttpClient(withInterceptorsFromDi())
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  declarations: [
+    MenuComponent,
+    GameComponent
+  ]
 })
 export class AppModule { }

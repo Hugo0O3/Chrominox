@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chrominox.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41312788d9b4c5c1f2b20b641843bb3909a375b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4d6c010ba8ade831027da157ea6968531023489")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chrominox.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chrominox.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

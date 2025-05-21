@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "qlRbUsqpEeTWs6MtLg+PXnIGikQOIJhIfjMmyHMmnBQ=",
+  "Source": "Chrominox.Server",
+  "BasePath": "_content/Chrominox.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\32479\\OneDrive - student.helmo.be\\Bureau\\Projet Github\\CSharpFun\\Chrominox\\chrominox.client\\chrominox.client.esproj",
+      "Version": 2,
+      "Source": "chrominox.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

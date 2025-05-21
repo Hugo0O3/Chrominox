@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:50067",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\32479\\OneDrive - student.helmo.be\\Bureau\\Projet Github\\CSharpFun\\Chrominox\\Chrominox.Server\\..\\chrominox.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
