@@ -1,6 +1,7 @@
 ﻿namespace Chrominox.Server.Services
 {
-    public class ChrominoGenerator
+    public interface ChrominoGenerator
     {
+        List<Chromino> generateChrominos();
     }
 }

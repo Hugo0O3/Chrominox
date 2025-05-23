@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Chrominox.Server",
-    "\\Chrominox.Server\\Models"
+    "\\Chrominox.Server\\Controllers",
+    "\\Chrominox.Server\\Models",
+    "\\Chrominox.Server\\Properties",
+    "\\Chrominox.Server\\Services"
   ],
-  "SelectedNode": "\\Chrominox.Server\\Models\\Chromino.cs",
+  "SelectedNode": "\\Chrominox.Server\\Models\\ChroBag.cs",
   "PreviewInSolutionExplorer": false
 }
