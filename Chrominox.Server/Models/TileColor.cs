@@ -1,7 +1,7 @@
 ﻿namespace Chrominox.Server.Models
 {
 
-    public enum TileColor
+    public enum TileType
     {
         Chameleon,
         Cyan,

@@ -6,13 +6,9 @@ import { ChrominoComponent } from './chromino/chromino.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterModule, ChrominoComponent],
-  template: `
-    <h1>Chrominox</h1>
-    <app-chromino [colors]="chrominoColors"></app-chromino>
-    <router-outlet></router-outlet>
-  `
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'chrominox';
-  chrominoColors: string[] = ['#FF0000', '#00FF00', '#0000FF'];
 }
