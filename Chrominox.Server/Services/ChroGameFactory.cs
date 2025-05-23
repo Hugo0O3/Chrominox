@@ -16,5 +16,10 @@
             currentGame = new ChroGame(mode, chrominos);
             ChroBag bag = new ChroBag(chrominos);
         }
+
+        public ChroGame getCurrentGame()
+        {
+            return currentGame;
+        }
     }
 }
